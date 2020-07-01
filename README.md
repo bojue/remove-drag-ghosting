@@ -3,7 +3,13 @@ Remove drag ghost，消除拖拽鬼影
 
 # 使用
 
-1. npm i remove-drag-ghosting
+1. npm install
+
+```
+npm install remove-drag-ghosting
+
+import removeGhosting from 'remove-drag-ghosting';
+```
 
 2. function
 
@@ -23,5 +29,4 @@ function removeGhosting(event) {
         event.dataTransfer.setDragImage(dragIcon,0, 0);
     }
 }
-
 ```
