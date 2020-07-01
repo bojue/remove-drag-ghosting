@@ -1,6 +1,6 @@
 {
   "name": "remove-drag-ghosting",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Remove drag ghost，消除拖拽鬼影",
   "main": "index.js",
   "scripts": {

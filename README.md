@@ -1,7 +1,11 @@
 # remove-drag-ghosting
 Remove drag ghost，消除拖拽鬼影
 
-# 使用
+## 在线预览
+
+[预览](file:///D:/workspace/remove-drag-ghosting/demo/index.html)
+
+## 使用
 
 1. npm install
 
