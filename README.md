@@ -3,7 +3,7 @@ Remove drag ghost，消除拖拽鬼影
 
 ## 在线预览
 
-[预览](file:///D:/workspace/remove-drag-ghosting/demo/index.html)
+[预览](https://bojue.github.io/remove-drag-ghosting)
 
 ## 使用
 
