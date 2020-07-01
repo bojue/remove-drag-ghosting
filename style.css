@@ -21,10 +21,10 @@ body {
     font-size: 14px;
 }
 #dragElement {
-    width: 150px;
-    height: 210px;
+    width: 180px;
+    height: 200px;
     position: absolute;
-    border:1px solid black;
+    border:1px solid blue;
     border-radius: 5px;
     display: inline-block;
 }
