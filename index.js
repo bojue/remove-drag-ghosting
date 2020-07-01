@@ -8,8 +8,7 @@ let removeGhosting = function(event) {
     dragIcon.width = 0;
     dragIcon.height = 0;
     dragIcon.opacity = 0;
-    if(event.dataTransfer) {
+    if(event && event.dataTransfer) {
         event.dataTransfer.setDragImage(dragIcon,0, 0);
     }
 }
-export default removeGhosting;
