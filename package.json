@@ -18,9 +18,9 @@
   },
   "homepage": "https://github.com/bojue/remove-drag-ghosting#readme",
   "dependencies": {
-    "webpack": "^4.43.0"
+
   },
   "devDependencies": {
-    "webpack-cli": "^3.3.12"
+
   }
 }
