@@ -25,6 +25,7 @@ body {
     height: 300px;
     position: absolute;
     border:1px solid blue;
+    border-radius: 5px;
     display: inline-block;
 }
 #github {
