@@ -3,9 +3,9 @@ Remove drag ghost，消除拖拽鬼影
 
 # 使用
 
-1. npm install 
+1. npm i remove-drag-ghosting
 
-2. es5
+2. function
 
 ```javascript
 
