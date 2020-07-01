@@ -22,7 +22,7 @@ body {
 }
 #dragElement {
     width: 150px;
-    height: 200px;
+    height: 210px;
     position: absolute;
     border:1px solid black;
     border-radius: 5px;
