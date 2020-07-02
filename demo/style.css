@@ -21,11 +21,10 @@ body {
     font-size: 14px;
 }
 #dragElement {
-    width: 100px;
-    height: 220px;
+    width: 210px;
+    height: 300px;
     position: absolute;
     border:1px solid blue;
-    border-radius: 5px;
     display: inline-block;
 }
 #github {

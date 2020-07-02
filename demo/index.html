@@ -32,19 +32,21 @@
             let dragDom = document.getElementById('dragElement'); //拖拽元素
             let typeDom = document.getElementById("dragType"); //类型选择元素
 
-            dragDom.addEventListener('mouseenter', drag);
-            dragDom.addEventListener('click', drag);
             dragDom.addEventListener('dragstart', drag);
             dragDom.addEventListener('drag', drag);
-            typeDom.addEventListener("change", dragType);
+            dragDom.addEventListener('dragend',drag);
+            dragDom.addEventListener('click', drag);
+            dragDom.addEventListener('mousedown', drag);
+            dragDom.addEventListener('mouseenter', drag);
+            typeDom.addEventListener("change", dragType)
 
             function drag(event) {
-                if(!event || (!event.screenX && !event.screenY)) return;
                 if(state.optimizationType === 'optimization') {
                     removeGhosting(event)
                 }
+
+                if(!event || (!event.screenX && !event.screenY)) return;
                 state.type = event.type;
-                console.log(state.type)
                 if(['dragstart', 'click'].indexOf(state.type)> -1 ) {
                     state.clientX = event.clientX;
                     state.clientY = event.clientY;
