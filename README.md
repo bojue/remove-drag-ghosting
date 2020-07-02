@@ -3,19 +3,22 @@ Remove drag ghost，消除拖拽鬼影
 
 ## 在线预览
 
-[预览](file:///D:/workspace/remove-drag-ghosting/demo/index.html)
+[Demo](https://bojue.github.io/remove-drag-ghosting)
 
 ## 使用
 
-1. npm install
+- npm 
 
 ```
+// 1. install
+
 npm install remove-drag-ghosting
 
+// 2.use
 import removeGhosting from 'remove-drag-ghosting';
 ```
 
-2. function
+- function
 
 ```javascript
 
