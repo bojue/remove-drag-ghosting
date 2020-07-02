@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>DEMO</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="content">
-        <select name="dragType" id="dragType">
-            <option value="default">默认拖拽</option>
-            <option value="optimization">优化拖拽</option>
-        </select>
+        <div class="contr">
+            <img src="./github.gif" alt="github" id='github' onclick="github()">
+            <select name="dragType" id="dragType">
+                <option value="default">默认拖拽</option>
+                <option value="optimization">优化拖拽</option>
+            </select>
+        </div>
         <img id="dragElement" src="./kakaxi.jpg" alt="" draggable="true" style="left: 500px;top:100px;">
     </div>
-    <img src="./github.gif" alt="github" id='github' onclick="github()">
     <script src="./index.js"></script>
     <script>
         window.onload = function() {
@@ -36,6 +39,7 @@
             dragDom.addEventListener('click', drag);
             dragDom.addEventListener('dragstart', drag);
             dragDom.addEventListener('drag', drag);
+
             typeDom.addEventListener("change", dragType);
 
             function drag(event) {
@@ -44,7 +48,6 @@
                     removeGhosting(event)
                 }
                 state.type = event.type;
-                console.log(state.type)
                 if(['dragstart', 'click'].indexOf(state.type)> -1 ) {
                     state.clientX = event.clientX;
                     state.clientY = event.clientY;
