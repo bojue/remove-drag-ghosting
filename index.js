@@ -4,7 +4,7 @@ let removeGhosting = function(event) {
         return;
     }
     let dragIcon = document.createElement('img');
-    dragIcon.src = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7',
+    dragIcon.src = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7';
     dragIcon.width = 0;
     dragIcon.height = 0;
     dragIcon.opacity = 0;

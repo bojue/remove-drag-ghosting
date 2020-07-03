@@ -10,17 +10,30 @@ Remove drag ghost，消除拖拽鬼影
 - npm 
 
 ```
-// 1. install
-
+// npm install 
 npm install remove-drag-ghosting
 
-// 2.use
+// javascript
 import removeGhosting from 'remove-drag-ghosting';
+
+drag(event) {
+    removeGhosting(event);
+}
 ```
 
 - function
 
 ```javascript
+
+// html 
+
+<img id="dragElement" src="./kakaxi.jpg" draggable="true">
+
+// javascript
+let dragDom = document.getElementById('dragElement'); //dragElement
+dragDom.addEventListener('mouseenter', drag);
+dragDom.addEventListener('dragstart', drag);
+dragDom.addEventListener('drag', drag);
 
 function removeGhosting(event) {
     if(!(event instanceof MouseEvent)) {
@@ -28,7 +41,8 @@ function removeGhosting(event) {
         return;
     }
     let dragIcon = document.createElement('img');
-    dragIcon.src = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7',
+    let url = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7';
+    dragIcon.src = url;
     dragIcon.width = 0;
     dragIcon.height = 0;
     dragIcon.opacity = 0;
