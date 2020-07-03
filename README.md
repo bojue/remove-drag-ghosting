@@ -1,11 +1,11 @@
 # remove-drag-ghosting
-Remove drag ghost，消除拖拽鬼影
+Remove drag ghost
 
-## 在线预览
+# Demo
 
-[Demo](https://bojue.github.io/remove-drag-ghosting)
+[online](https://bojue.github.io/remove-drag-ghosting)
 
-## 使用
+## Use
 
 - npm 
 
@@ -51,3 +51,6 @@ function removeGhosting(event) {
     }
 }
 ```
+## License
+
+[MIT](https://opensource.org/licenses/MIT)
