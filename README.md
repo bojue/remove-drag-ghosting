@@ -2,9 +2,7 @@
 Remove drag ghost
 
 <a href="https://www.npmjs.com/remove-drag-ghosting" target="_blank"><img src="https://img.shields.io/npm/v/remove-drag-ghosting.svg" alt="NPM Version" /></a>
-
 <a href="https://www.npmjs.com/remove-drag-ghosting" target="_blank"><img src="https://img.shields.io/npm/l/remove-drag-ghosting.svg" alt="Package License" /></a>
-
 <a href="https://www.npmjs.com/remove-drag-ghosting" target="_blank"><img src="https://img.shields.io/npm/dm/remove-drag-ghosting.svg" alt="NPM Downloads" /></a>
 
 # Demo
