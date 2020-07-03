@@ -11,6 +11,8 @@ Remove drag ghost
 
 [Online](https://bojue.github.io/remove-drag-ghosting)
 
+![Demo](demo.png)
+
 ## Use
 
 - npm 
