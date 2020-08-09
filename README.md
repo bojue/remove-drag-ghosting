@@ -37,9 +37,9 @@ drag(event) {
 
 // javascript
 let dragDom = document.getElementById('dragElement'); //dragElement
-dragDom.addEventListener('mouseenter', drag);
-dragDom.addEventListener('dragstart', drag);
-dragDom.addEventListener('drag', drag);
+dragDom.addEventListener('mouseenter', removeGhosting);
+dragDom.addEventListener('dragstart', removeGhosting);
+dragDom.addEventListener('drag', removeGhosting);
 
 function removeGhosting(event) {
     if(!(event instanceof MouseEvent)) {
