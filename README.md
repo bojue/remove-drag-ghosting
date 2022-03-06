@@ -9,7 +9,9 @@ Remove drag ghost
 
 [Online](https://bojue.github.io/remove-drag-ghosting)
 
-![Demo](demo.png)
+
+![demo](https://user-images.githubusercontent.com/14350577/156909276-cfd27e4b-621a-4cb4-a698-f417573c8c94.png)
+
 
 ## Use
 
